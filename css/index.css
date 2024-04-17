@@ -1,7 +1,39 @@
+.customNav{
+    background-color: #FA6B65 !important;
+}
+.navbar-nav{
+    margin-left: auto;
+    margin-right: 0 !important;
+    background-color: #FA6B65;
+  }
+  .navbar-brand img {
+    padding-right: 15px;
+    width: 65px;
+  }
+  .nav-item{
+    margin: 0px 15px;
+  }
+.btn{
+    background-color: #69BE5C ;
+    border-color: #FFF;
+}
+h1{
+    background-color: #00A0AE;
+    text-align: center;
+    color:#FFF
+}
 .carousel-item img {
     height: 800px;
   }
-  /* The actual timeline (the vertical ruler) */
+.accordion-button{
+    background-color: #00A0AE;
+    color:#FFF;
+}
+.accordion-body{
+    background-color: #00A0AE;
+    color:#FFF;
+}
+/* The actual timeline (the vertical ruler) */
 .main-timeline {
     position: relative;
   }
@@ -11,7 +43,7 @@
     content: "";
     position: absolute;
     width: 6px;
-    background-color: #939597;
+    background-color: #00A0AE;
     top: 0;
     bottom: 0;
     left: 50%;
@@ -32,8 +64,8 @@
     width: 25px;
     height: 25px;
     right: -13px;
-    background-color: #939597;
-    border: 5px solid #f5df4d;
+    background-color: #FFF;
+    border: 5px solid #FA6B65;
     top: 15px;
     border-radius: 50%;
     z-index: 1;
@@ -51,30 +83,10 @@
     left: 50%;
   }
   
-  /* Add arrows to the left container (pointing right) */
-  .left::before {
-    content: " ";
-    position: absolute;
-    top: 18px;
-    z-index: 1;
-    right: 30px;
-    border: medium solid white;
-    border-width: 10px 0 10px 10px;
-    border-color: transparent transparent transparent white;
-  }
-  
-  /* Add arrows to the right container (pointing left) */
-  .right::before {
-    content: " ";
-    position: absolute;
-    top: 18px;
-    z-index: 1;
-    left: 30px;
-    border: medium solid white;
-    border-width: 10px 10px 10px 0;
-    border-color: transparent white transparent transparent;
-  }
-  
+ .card-body {
+    background-color: #FA6B65;
+    color: #FFF
+ }
   /* Fix the circle for containers on the right side */
   .right::after {
     left: -12px;
